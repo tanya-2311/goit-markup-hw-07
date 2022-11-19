@@ -124,7 +124,7 @@ button {
     line-height: 1.19;
 }
 
-.logo-studio {
+.header__label {
     color: var(--logo-text-color);
 }
 
