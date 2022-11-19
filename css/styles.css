@@ -208,7 +208,7 @@ button {
     margin-left: 50px;
 }
 
-.title-contact {
+.header-contacts__title {
     display: flex;
     align-items: center;
 
@@ -224,13 +224,13 @@ button {
     letter-spacing: 0.02em;
 }
 
-.title-contact:hover,
-.title-contact:focus {
+.header-contacts__title:hover,
+.header-contacts__title:focus {
     color: var(--brand-color);
 }
 
 /* svg для контактів */
-.contact-icon {
+.header-contacts__icon {
 
     margin-right: 10px;
     fill: currentColor;
@@ -589,6 +589,27 @@ button {
     line-height: 1.71;
     font-style: normal;
     font-weight: 400;
+}
+
+.title-contact {
+    display: flex;
+    align-items: center;
+
+    transition-property: color;
+    transition-duration: var(--trnz-duration);
+    transition-timing-function: var(--trnz-tim-fnct);
+
+    color: var(--main-text-color);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.title-contact:hover,
+.title-contact:focus {
+    color: var(--brand-color);
 }
 
 .footer-item>.title-contact {
