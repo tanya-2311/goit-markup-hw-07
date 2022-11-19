@@ -683,7 +683,6 @@ button {
 }
 
 
-
 .footer-form-list {
     display: flex;
 
@@ -919,8 +918,6 @@ button {
     height: 30px;
     background-color: transparent;
 
-
-
 }
 
 .close-button-icon {
@@ -945,7 +942,7 @@ button {
 
 .strong-modal-form {
     display: flex;
-    /* text-align: center; */
+
     justify-content: center;
     margin-bottom: 12px;
     font-weight: 700;
@@ -954,16 +951,6 @@ button {
 
     color: var(--primary-text-color);
 }
-
-.modal-form {
-
-    /* margin-left: 0;
-    margin-right: 0;
-
-    justify-content: center;
-    align-items: flex-start; */
-}
-
 
 
 .form-group-modal {
