@@ -124,7 +124,7 @@ button {
     line-height: 1.19;
 }
 
-.header__label {
+.logo__label {
     color: var(--logo-text-color);
 }
 
@@ -149,7 +149,7 @@ button {
 
 }
 
-/* очистка крайньої геометрії, запрали в останного ел маргін */
+/* очистка крайньої геометрії, забрали в останного ел маргін */
 .nav__link:not(:last-child) {
 
     margin-right: 50px;
@@ -257,7 +257,7 @@ button {
 
 }
 
-.hero-title {
+.hero__title {
     width: 696px;
     margin: 0 auto;
 
@@ -272,7 +272,7 @@ button {
 
 }
 
-.button-main {
+.hero__button {
     display: inline-block;
     border-radius: 4px;
     min-width: 216px;
@@ -297,8 +297,8 @@ button {
     letter-spacing: 0.06em;
 }
 
-.button-main:hover,
-.button-main:focus {
+.hero__button:hover,
+.hero__button:focus {
     color: var(--secondary-text-color);
     background-color: var(--button-text-focus);
 }
