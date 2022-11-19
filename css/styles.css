@@ -21,16 +21,9 @@
     --color-gradient: rgba(47, 48, 58, 0.4);
     --idx-header: 100;
     --idx-backdroup: 1000;
-    /* --trnz-property-bcg: background-color;
-    --trnz-property-shadow: box-shadow;
-    --trnz-property-border: border;
-    --trnz-property-transform: transform;
-    --trnz-property-color: color; */
+
     --trnz-duration: 250ms;
     --trnz-tim-fnct: cubic-bezier(0.4, 0, 0.2, 1);
-
-    /* --trns: opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1),
-        visibility 2500ms cubic-bezier(0.4, 0, 0.2, 1); */
 
 }
 
@@ -42,8 +35,6 @@ body {
     letter-spacing: 0.03em;
 
 }
-
-
 
 ul {
     list-style: none;
@@ -57,7 +48,7 @@ ul {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: 2px solid red; */
+
 }
 
 /* зброси */
@@ -109,12 +100,12 @@ button {
     border-bottom: 1px solid var(--border-background)
 }
 
-.header-nav {
+.header__nav {
     margin-left: 93px;
 }
 
-/* main-nav ставимо навігацію в ряд */
-.main-nav {
+/* header-container ставимо навігацію в ряд */
+.header__container {
     display: flex;
     align-items: center;
 
@@ -123,8 +114,21 @@ button {
 
 /* LOGO */
 
-.logo {
+.header__logo {
 
+    color: var(--brand-color);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-studio {
+    color: var(--logo-text-color);
+}
+
+.logo-footer {
     color: var(--brand-color);
     text-decoration: none;
     font-family: var(--secondary-font);
@@ -134,29 +138,25 @@ button {
 
 }
 
-.logo-studio {
-    color: var(--logo-text-color);
-
-}
-
 .logo-studiof {
+
     color: var(--secondary-text-color);
 }
 
 /* навігація хедера */
-.site-nav {
+.nav__list {
     display: flex;
 
 }
 
 /* очистка крайньої геометрії, запрали в останного ел маргін */
-.site-nav .header-link:not(:last-child) {
+.nav__link:not(:last-child) {
 
     margin-right: 50px;
 }
 
 
-.site-nav .link {
+.nav__link .link {
     display: block;
     position: relative;
 
@@ -177,13 +177,13 @@ button {
 
 }
 
-.site-nav .link.current,
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav__list .link.current,
+.nav__list .link:hover,
+.nav__list .link:focus {
     color: var(--brand-color);
 }
 
-.site-nav .link.current::after {
+.nav__list .link.current::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -198,13 +198,13 @@ button {
 
 }
 
-.nav-contacts {
+.nav__contacts {
     display: flex;
     margin-left: auto;
 
 }
 
-.nav-contacts .contact-item+.contact-item {
+.nav__contacts .contact-item+.contact-item {
     margin-left: 50px;
 }
 
@@ -295,8 +295,6 @@ button {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
-
 }
 
 .button-main:hover,
@@ -750,7 +748,7 @@ button {
 .button-footer-form {
     position: relative;
     display: flex;
-    padding: 10px 32px;
+    padding: 10px 28px;
     width: 200px;
     gap: 10px;
 
@@ -1180,7 +1178,7 @@ button {
     margin: 0 auto;
 
     min-width: 200px;
-    padding: 18px 32px;
+    padding: 10px 52px;
     font-weight: 700;
     letter-spacing: 0.06em;
     color: var(--secondary-text-color);
