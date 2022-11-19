@@ -1,7 +1,4 @@
 /* палітра кольлорів */
-
-
-
 :root {
     --brand-color: #2196F3;
     --background-overlay: rgba(33, 150, 243, 0.9);
@@ -96,7 +93,6 @@ button {
 
 /* HEADER */
 .header {
-
     border-bottom: 1px solid var(--border-background)
 }
 
@@ -108,14 +104,11 @@ button {
 .header__container {
     display: flex;
     align-items: center;
-
 }
-
 
 /* LOGO */
 
 .header__logo {
-
     color: var(--brand-color);
     text-decoration: none;
     font-family: var(--secondary-font);
@@ -135,7 +128,6 @@ button {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-
 }
 
 .logo-studiof {
@@ -154,7 +146,6 @@ button {
 
     margin-right: 50px;
 }
-
 
 .nav__link .link {
     display: block;
@@ -194,14 +185,11 @@ button {
     margin-bottom: -1px;
     background-color: var(--brand-color);
     border-radius: 2px;
-
-
 }
 
 .header-contacts {
     display: flex;
     margin-left: auto;
-
 }
 
 .header-contacts .header-contacts__item+.header-contacts__item {
@@ -235,7 +223,6 @@ button {
     margin-right: 10px;
     fill: currentColor;
 }
-
 
 /* section-hero */
 .hero {
@@ -382,17 +369,13 @@ button {
 }
 
 .service__photo {
-
     display: flex;
-
 }
 
 .servis__item {
-
     width: 370px;
     margin-right: 30px;
     width: 100%;
-
 }
 
 .servis__item:nth-child(3n) {
@@ -401,7 +384,7 @@ button {
 
 .service__title,
 .comand-title,
-.clients-title {
+.clients__title {
     font-style: normal;
     color: var(--primary-text-color);
     font-weight: 700;
@@ -524,17 +507,17 @@ button {
 /* section class="clients */
 
 
-.clients-title {
+.clients__title {
     margin-bottom: 50px;
 
 }
 
-.our-clients {
+.clients__list {
     display: flex;
     gap: 30px;
 }
 
-.clients-link {
+.clients__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -550,12 +533,12 @@ button {
     color: var(--icons-color);
 }
 
-.clients-icon {
+.clients__icon {
     fill: currentColor;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
     color: var(--brand-color);
 
 }
