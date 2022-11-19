@@ -383,7 +383,7 @@ button {
 }
 
 .service__title,
-.comand-title,
+.comand__title,
 .clients__title {
     font-style: normal;
     color: var(--primary-text-color);
@@ -421,13 +421,13 @@ button {
     padding: 94px 0;
 }
 
-.our-comand {
+.comand__members {
 
     display: flex;
 
 }
 
-.photo-comand {
+.comand__img {
     margin-right: 30px;
     background-color: var(--secondary-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -435,21 +435,21 @@ button {
     border-radius: 0px 0px 4px 4px;
 }
 
-.photo-comand:nth-child(4n) {
+.comand__img:nth-child(4n) {
     margin-right: 0;
 }
 
-.comand-title {
+.comand__title {
     margin-bottom: 50px;
 
 }
 
-.comand-position {
+.comand__card {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.name-title {
+.comand__name {
     margin-bottom: 10px;
     font-style: normal;
     color: var(--primary-text-color);
@@ -459,7 +459,7 @@ button {
     text-align: center;
 }
 
-.position-title {
+.comand__position {
     font-style: normal;
     font-size: 16px;
     line-height: 1.19;
@@ -467,7 +467,7 @@ button {
 }
 
 /* стилі для лінків соцмереж */
-.social {
+.comand__list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -476,7 +476,7 @@ button {
 
 }
 
-.social-links {
+.comand__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -493,14 +493,14 @@ button {
 
 }
 
-.social-links:hover,
-.social-links:focus {
+.comand__link:hover,
+.comand__link:focus {
     color: var(--secondary-text-color);
 
     background-color: var(--brand-color);
 }
 
-.social-icon {
+.comand__icon {
     fill: currentColor;
 }
 
