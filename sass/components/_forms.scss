@@ -68,9 +68,7 @@
     color: var(--main-text-color);
     border-color: var(--icons-color);
 
-
 }
-
 
 .footer-form-label {
     position: absolute;
@@ -122,32 +120,28 @@
     margin-bottom: 20px;
 }
 
-/* label-name, phone, mail */
 .form-field {
     position: relative;
     display: block;
 
-    /* margin-bottom: 10px; */
     color: var(--logo-text-color);
 }
 
-.form-field-last {
-    margin-bottom: 0;
-}
+
 
 .form-field:focus-within,
 .form-field:hover,
 .form-field:active {
     color: var(--brand-color);
 }
-
+.form-field-last {
+    margin-bottom: 0;
+}
 .span-label-modal {
     /* position: absolute; */
     display: block;
-    /* top: -18px; */
-
     margin-bottom: 4px;
-    /* font-weight: 400; */
+   
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
@@ -188,17 +182,16 @@
 
 .form-icon-modal {
     position: absolute;
-
     top: 50%;
     left: 12px;
     fill: currentColor;
-    /* transform: translateY(-50%); */
+    
     transition-property: color;
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 }
 
-.form-icon-modal:focus-withi>input,
+.form-icon-modal:focus-within>input,
 .form-icon-modal:hover>input,
 .form-icon-modal:active {
 
