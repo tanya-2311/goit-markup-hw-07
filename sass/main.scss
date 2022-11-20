@@ -1,10 +1,10 @@
 // ---UTILS STYLESS----
-@import"./utils/variables";
 @import"./utils/v-hidden";
+@import"./utils/variables";
 
 // ---BASE STYLESS----
-@import"./utils/variables";
-@import"./base/reset1";
+@import"./base/base";
+@import"./base/reset";
 
 // ---COMPONENTS STYLESS----
 @import"./components/container";

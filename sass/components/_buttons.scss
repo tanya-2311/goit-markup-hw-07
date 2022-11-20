@@ -139,6 +139,11 @@ button {
     background-color: transparent;
 
 }
+.close-button:hover,
+.close-button:focus {
+    fill: var(--brand-color);
+
+}
 // close-button-MODAL
 .close-button-icon {
     fill: currentColor;
@@ -147,11 +152,7 @@ button {
     transition-timing-function: var(--trnz-tim-fnct);
 }
 
-.close-button:hover,
-.close-button:focus {
-    fill: var(--brand-color);
 
-}
 
 .close-button-icon:hover,
 .close-button-icon:focus {
