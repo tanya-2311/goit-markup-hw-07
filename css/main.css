@@ -307,4 +307,31 @@ button {
 .button-form-modal:focus {
   color: var(--secondary-text-color);
   background-color: var(--button-text-focus);
+}
+
+/* LOGO */
+.header__logo {
+  color: var(--brand-color);
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo__label {
+  color: var(--logo-text-color);
+}
+
+.logo-footer {
+  color: var(--brand-color);
+  text-decoration: none;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-studiof {
+  color: var(--secondary-text-color);
 }/*# sourceMappingURL=main.css.map */
