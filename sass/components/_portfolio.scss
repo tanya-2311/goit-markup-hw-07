@@ -1,15 +1,12 @@
 
-/* main-portfolio */
 .main-portfolio {
     padding: 94px 0;
 }
 
-/* photo-portfolio */
 .photo-portfolio {
 
     display: flex;
     flex-wrap: wrap;
-
 }
 
 
@@ -34,18 +31,15 @@
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 
-}
+    &:hover {
+        border: 1px solid color var(--secondary-text-color);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
+    
+    &:focus {
+        border: 1px solid color var(--secondary-text-color);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
 
-.portfolio-link:hover {
-    border: 1px solid color var(--secondary-text-color);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-.portfolio-link:focus {
-    border: 1px solid color var(--secondary-text-color);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 
 
 .title-stule {
@@ -57,8 +51,6 @@
     border-top: none;
 
 }
-
-/* portfolio-title */
 .portfolio-title {
 
     margin-bottom: 4px;
@@ -70,7 +62,6 @@
     letter-spacing: 0.06em;
 }
 
-/* title-filtr */
 .title-filtr {
 
     font-style: normal;

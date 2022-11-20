@@ -50,6 +50,15 @@
     transition-property: color, background-color;
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
+
+    &:active {
+        background-color: var(--backrground-secondary);}
+    
+     &:hover,
+     &:focus {
+    color: var(--main-text-color);
+    border-color: var(--icons-color);}
+
 }
 
 .input-footer::placeholder {
@@ -58,17 +67,7 @@
 
 }
 
-.input-footer:active {
-    background-color: var(--backrground-secondary);
 
-}
-
-.input-footer:hover,
-.input-footer:focus {
-    color: var(--main-text-color);
-    border-color: var(--icons-color);
-
-}
 
 .footer-form-label {
     position: absolute;
@@ -125,15 +124,16 @@
     display: block;
 
     color: var(--logo-text-color);
+
+    &:focus-within,
+    &:hover,
+    &:active {
+    color: var(--brand-color);}
 }
 
 
 
-.form-field:focus-within,
-.form-field:hover,
-.form-field:active {
-    color: var(--brand-color);
-}
+
 .form-field-last {
     margin-bottom: 0;
 }
@@ -169,15 +169,16 @@
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 
-}
-
-.form-input-modal:focus-within,
-.form-input-modal:hover,
-.form-input-modal:active {
+    &:focus-within,
+    &:hover,
+    &:active {
     border: 1px solid var(--brand-color);
     outline: none;
-    color: var(--logo-text-color);
+    color: var(--logo-text-color);}
+
 }
+
+
 
 
 .form-icon-modal {
@@ -222,14 +223,11 @@
 
     caret-color: var(--logo-text-color);
 
-
-}
-
-.form-message:focus-within,
-.form-message:hover,
-.form-message:active {
+    &:focus-within,
+    &:hover,
+    &:active {
     border: 1px solid var(--brand-color);
-    outline: none;
+    outline: none;}
 }
 
 
@@ -282,7 +280,7 @@
     user-select: none;
     font-weight: 400;
     line-height: 1.71;
-    padding-left: 33px;
+    padding-left: 23px;
 }
 
 .form-chechbox-icon .unchecked {
@@ -295,8 +293,6 @@
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
 }
-
-
 
 .form-chechbox-icon .checked {
     opacity: 0;
@@ -311,7 +307,7 @@
 
 .form-agreement-link {
     color: var(--brand-color);
-    /* text-decoration: none; */
+    
 }
 
 

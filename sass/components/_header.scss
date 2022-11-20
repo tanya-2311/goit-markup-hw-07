@@ -31,12 +31,13 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    &:hover,
+    &:focus {
+    color: var(--brand-color);}
 }
 
-.header-contacts__title:hover,
-.header-contacts__title:focus {
-    color: var(--brand-color);
-}
+
 .header-contacts__icon {
 
     margin-right: 10px;

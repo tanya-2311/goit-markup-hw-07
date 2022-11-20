@@ -91,7 +91,6 @@ button {
 }
 
 
-
 // button-footer-form
 
 .button-footer-form {
@@ -108,20 +107,16 @@ button {
     transition-property: background-color;
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
-}
 
-.button-footer-form:active {
-    background-color: var(--brand-color);
-
-}
-
-.button-footer-form:hover,
-.button-footer-form:focus {
+    &:active {
+        background-color: var(--brand-color);}
+    &:hover,
+    &:focus {
     color: var(--secondary-text-color);
-    background-color: var(--button-text-focus);
-
+    background-color: var(--button-text-focus);}
 }
 
+// close-button-MODAL
 .close-button {
     position: absolute;
     top: 8px;
@@ -138,33 +133,31 @@ button {
     height: 30px;
     background-color: transparent;
 
-}
-.close-button:hover,
-.close-button:focus {
-    fill: var(--brand-color);
+    &:hover,
+   &:focus {
+    fill: var(--brand-color);}
 
 }
-// close-button-MODAL
+
 .close-button-icon {
     fill: currentColor;
     transition-property: color;
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
+
+    &:hover,
+    &:focus {
+    color: var(--brand-color);}
 }
 
 
-
-.close-button-icon:hover,
-.close-button-icon:focus {
-    color: var(--brand-color);
-}
 
 .button-form-modal {
     display: block;
     margin: 0 auto;
 
     min-width: 200px;
-    padding: 10px 52px;
+    padding: 16px 52px;
     font-weight: 700;
     letter-spacing: 0.06em;
     color: var(--secondary-text-color);
@@ -174,10 +167,11 @@ button {
     transition-property: background-color;
     transition-duration: var(--trnz-duration);
     transition-timing-function: var(--trnz-tim-fnct);
-}
 
-.button-form-modal:hover,
-.button-form-modal:focus {
+    &:hover,
+    &:focus {
     color: var(--secondary-text-color);
     background-color: var(--button-text-focus);
 }
+}
+

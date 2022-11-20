@@ -1,6 +1,5 @@
 .clients__title {
     margin-bottom: 50px;
-
 }
 
 .clients__list {
@@ -25,13 +24,8 @@
 
     &:hover,
     &:focus {
-    color: var(--brand-color);
-
+    color: var(--brand-color);}
 }
-
-}
-
-
 
 
 .clients__icon {

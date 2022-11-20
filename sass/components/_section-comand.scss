@@ -1,4 +1,4 @@
-/* <!--section Наша команда--> */
+
 .comand {
     background-color: var(--backrground-comand);
     padding: 94px 0;
@@ -75,14 +75,10 @@
     border-radius: 50%;
 
     &:hover,
-&:focus {
+    &:focus {
     color: var(--secondary-text-color);
-
-    background-color: var(--brand-color);
+    background-color: var(--brand-color);}
 }
-
-}
-
 
 
 .comand__icon {

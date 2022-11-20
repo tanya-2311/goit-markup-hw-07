@@ -40,12 +40,13 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    &:hover,
+    &:focus {
+    color: var(--brand-color);}
 }
 
-.title-contact:hover,
-.title-contact:focus {
-    color: var(--brand-color);
-}
+
 
 .footer-item>.title-contact {
 
@@ -95,14 +96,12 @@
     background-color: rgba(255, 255, 255, 0.1);
 
     border-radius: 50%;
-    
-}
 
-.social-links-footer:hover,
-.social-links-footer:focus {
+    &:hover,
+   &:focus {
     color: var(--secondary-text-color);
-
-    background-color: var(--brand-color);
+    background-color: var(--brand-color);}
+    
 }
 
 .social-icon-footer {
