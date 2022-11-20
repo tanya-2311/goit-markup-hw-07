@@ -166,55 +166,13 @@
 
 }
 
-.hero__button {
-    display: inline-block;
-    border-radius: 4px;
-    min-width: 216px;
-    margin-top: 30px;
-    border: none;
-    padding: 10px 32px;
-
-    transition-property: background-color, color;
-    transition-duration: var(--trnz-duration);
-    transition-timing-function: var(--trnz-tim-fnct);
-
-    background-color: var(--brand-color);
-    color: var(--secondary-text-color);
-    cursor: pointer;
-    font-family: var(--primery-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-}
-
-.hero__button:hover,
-.hero__button:focus {
-    color: var(--secondary-text-color);
-    background-color: var(--button-text-focus);
-}
 
 /* section-features */
 .features {
     padding: 94px 0;
 }
 
-.vissually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
 
-    white-space: normal;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .our-features {
     display: flex;
@@ -653,33 +611,6 @@
 }
 
 
-.button-footer-form {
-    position: relative;
-    display: flex;
-    padding: 10px 28px;
-    width: 200px;
-    gap: 10px;
-
-    color: var(--secondary-text-color);
-    background-color: var(--brand-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-    transition-property: background-color;
-    transition-duration: var(--trnz-duration);
-    transition-timing-function: var(--trnz-tim-fnct);
-}
-
-.button-footer-form:active {
-    background-color: var(--brand-color);
-
-}
-
-.button-footer-form:hover,
-.button-footer-form:focus {
-    color: var(--secondary-text-color);
-    background-color: var(--button-text-focus);
-
-}
 
 
 .sabmit-footer-icon {
@@ -705,59 +636,7 @@
 
 
 /*  PORTFOLIO */
-/* buttons-potfolio */
-.buttons-portfolio {
-    display: flex;
-    margin-bottom: 50px;
-    justify-content: center;
-}
 
-.button-portfolio {
-    border: none;
-    margin-right: 8px;
-
-}
-
-.button-portfolio:nth-child(5n) {
-    margin-right: 0;
-}
-
-/* button-filtr */
-.button-filtr {
-    padding: 6px 22px;
-
-    background-color: var(--backrground-comand);
-    color: var(--primary-text-color);
-    cursor: pointer;
-    transition-property: color, background-color, box-shadow;
-    transition-duration: var(--trnz-duration);
-    transition-timing-function: var(--trnz-tim-fnct);
-
-
-    border-radius: 4px;
-    font-family: var(--primery-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.button-filtr:hover {
-    color: var(--secondary-text-color);
-    background-color: var(--brand-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-
-}
-
-.button-filtr:focus {
-    color: var(--secondary-text-color);
-    background-color: var(--brand-color);
-    border-radius: 4px;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-
-}
 
 /* modal-window  */
 .backdrop.is-hidden {
@@ -809,41 +688,7 @@
 
 }
 
-.close-button {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    border-radius: 50%;
-    border: 1px solid var(--icons-color);
-    cursor: pointer;
-    padding: 0;
-    width: 30px;
-    height: 30px;
-    background-color: transparent;
-
-}
-
-.close-button-icon {
-    fill: currentColor;
-    transition-property: color;
-    transition-duration: var(--trnz-duration);
-    transition-timing-function: var(--trnz-tim-fnct);
-}
-
-.close-button:hover,
-.close-button:focus {
-    fill: var(--brand-color);
-
-}
-
-.close-button-icon:hover,
-.close-button-icon:focus {
-    color: var(--brand-color);
-}
 
 /* modal-form */
 
@@ -1069,28 +914,6 @@
     /* text-decoration: none; */
 }
 
-.button-form-modal {
-    display: block;
-    margin: 0 auto;
-
-    min-width: 200px;
-    padding: 10px 52px;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    color: var(--secondary-text-color);
-    background: var(--brand-color);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-    border-radius: 4px;
-    transition-property: background-color;
-    transition-duration: var(--trnz-duration);
-    transition-timing-function: var(--trnz-tim-fnct);
-}
-
-.button-form-modal:hover,
-.button-form-modal:focus {
-    color: var(--secondary-text-color);
-    background-color: var(--button-text-focus);
-}
 
 /* main-portfolio */
 .main-portfolio {
