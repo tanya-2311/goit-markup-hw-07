@@ -122,7 +122,7 @@
 .form-field {
     position: relative;
     display: block;
-
+margin-bottom: 10px;
     color: var(--logo-text-color);
 
     &:focus-within,
@@ -138,7 +138,7 @@
     margin-bottom: 0;
 }
 .span-label-modal {
-    /* position: absolute; */
+    
     display: block;
     margin-bottom: 4px;
    

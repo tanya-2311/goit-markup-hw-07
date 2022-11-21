@@ -294,6 +294,10 @@ button {
 }
 
 .logo-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
   color: var(--brand-color);
   text-decoration: none;
   font-family: var(--secondary-font);
@@ -574,6 +578,7 @@ button {
 .form-field {
   position: relative;
   display: block;
+  margin-bottom: 10px;
   color: var(--logo-text-color);
 }
 .form-field:focus-within, .form-field:hover, .form-field:active {
@@ -585,7 +590,6 @@ button {
 }
 
 .span-label-modal {
-  /* position: absolute; */
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
